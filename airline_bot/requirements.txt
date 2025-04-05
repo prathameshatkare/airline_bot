@@ -1,0 +1,7 @@
+Flask
+openai
+requests
+# Used for running app on Render
+gunicorn
+
+
