@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: airline-expert-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
+      - key: AVIATIONSTACK_API_KEY
+        value: bf4e666f279a848fe38b8e9e200a5417
