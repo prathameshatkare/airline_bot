@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # ✅ Replace this with your actual Groq API key
-openai.api_key = "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"
+openai.api_key = ""
 openai.base_url = "https://api.groq.com/openai/v1/"
 
 @app.route('/')
